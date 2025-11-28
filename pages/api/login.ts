@@ -2,9 +2,8 @@ import { NextApiRequest, NextApiResponse } from "next";
 import client_promise from '../../lib/mongodb_sample';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import dotenv from 'dotenv';
 import crypto from "crypto";
-dotenv.config();
+
 
 const SECRET_KEY = process.env.SECRET_KEY;
 
@@ -31,7 +30,9 @@ function createRefreshToken(ttlDays = 30): RefreshToken {
 
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
- 
+  if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config();
+  }
   if (req.method == "GET") {
     return res.status(405).json({ message: 'Method not allowed' });
   }
