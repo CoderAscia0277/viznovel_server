@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "957585519386",
+    "project_id": "viznovel-ver2",
+    "storage_bucket": "viznovel-ver2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957585519386:android:c197a1be6c948d2a4672a3",
+        "android_client_info": {
+          "package_name": "com.example.viznovel_ver2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957585519386-uocotjiorhvhnpoai42angdrnmtebsj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.viznovel_ver2",
+            "certificate_hash": "e6906da7ec5cf59401f8f93a28254aae019827d9"
+          }
+        },
+        {
+          "client_id": "957585519386-kevtrirrr5r2h6f31gs4vonied6pqhjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm-6o99eyyYWulI98HEme6lxd8zYZpzII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957585519386-kevtrirrr5r2h6f31gs4vonied6pqhjv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "957585519386-3bqsnuvsk80i8d7lmrgtbb7dafds8sta.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.viznovelVer2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
